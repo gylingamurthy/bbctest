@@ -1,1 +1,12 @@
+bbctest-css:
+  version: 1.x
+  css:
+    theme:
+      css/bbctest.css: {}
+      css/narrow.css: {media: screen and (max-width: 750px)}
+bbctest-js:
+  js:
+    js/bbctest.js: {}
+  dependencies:
+    - core/jquery
 
