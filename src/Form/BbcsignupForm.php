@@ -160,6 +160,7 @@ class BbcsignupForm extends FormBase {
         $result = $this->conn->select('pupil', 'n')
             ->fields('n', array('rollid', 'name', 'email'))
             ->condition('n.rollid', $fm, '=')
+	    ->orderBy('n.plan', 'DESC')
             ->execute()->fetchAllAssoc('rollid');
 
             $rows = array();
