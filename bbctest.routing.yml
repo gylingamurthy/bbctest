@@ -1,0 +1,8 @@
+bbctest.slot:
+  path: '/sign_up'
+  defaults:
+    _form: '\Drupal\bbctest\Form\BbcsignupForm'
+    _title: 'Student Registration Form'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
