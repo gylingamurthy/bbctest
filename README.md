@@ -14,3 +14,7 @@ a> used two tables to store the data, .sql file is attached
 b> Ajax is used for dependent dropdown list
 c> validation for slot selection
 d> two column display
+
+Database key points
+
+a> Foreign key added between two tables of row "rollid"
