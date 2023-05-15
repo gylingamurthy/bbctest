@@ -1,0 +1,7 @@
+name: BBC Test
+type: module
+description: Module for implementing custom form for student course slot.
+core_version_requirement: ^8.8 || ^9
+package: others
+libraries:
+  - bbctest/bbctest-css
