@@ -1,0 +1,33 @@
+.topic-field-wrapper {
+  /*display: none;*/
+}
+
+#edit-basic {
+  width: 50%;
+  float: left;
+}
+#edit-basic, #edit-slot {
+  border-width: 0;
+}
+#edit-slot {
+  padding-top: 20px;
+}
+#edit-table {
+  padding-left: 2.1em;
+  width: 25em;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+#edit-trig {
+  background-color: #f2f2f2;
+  text-align: center;
+}
