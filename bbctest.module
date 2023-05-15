@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implements hook_form_alter().
+ */
+function bbctest_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+
+    // To attach
+    $form['#attached']['library'][] = 'bbctest/bbctest-css';
+    $form['#attached']['library'][] = 'bbctest/bbctest-js';
+
+    return $form;
+}
