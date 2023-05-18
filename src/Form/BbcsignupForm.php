@@ -135,7 +135,7 @@ class BbcsignupForm extends FormBase {
      '#markup' => $this->displayOutput($form),
     );
 
-    $form['table'] = [
+    $form['slot']['table'] = [
       '#type' => 'table',
       '#header' => array('Subject', 'Topic', 'Slot'),
       '#rows' => $this->showSlot($form),
@@ -168,7 +168,7 @@ class BbcsignupForm extends FormBase {
               $rows = array(
                 'data' => array($content->rollid, $content->name, $content->email));
             }
-            return 'Roll Id: '.$rows[data][0] .'</br>'.'  Name: '.$rows[data][1] .'</br>'.'  Email: '.$rows[data][2];
+            return 'Roll Id: '.$rows['data'][0] .'</br>'.'  Name: '.$rows['data'][1] .'</br>'.'  Email: '.$rows['data'][2];
       } else {
         return t('No Data Available');
       }
